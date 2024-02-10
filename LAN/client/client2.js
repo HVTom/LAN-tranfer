@@ -3,9 +3,9 @@ const fs = require('fs');
 const readline = require('readline');
 const path = require('path');
 
-const SERVER_IP = '192.168.0.101';
+const SERVER_IP = 'ip';
 const PORT = 8000;
-const DOWNLOAD_DIR = '/home/tom/Desktop';
+const DOWNLOAD_DIR = '/home/user/Desktop';
 
 const rl = readline.createInterface({
   input: process.stdin,
