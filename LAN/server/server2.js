@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const multer = require('multer');
 
-const SERVER_IP = '192.168.0.101';
+const SERVER_IP = 'ip';
 const PORT = 8000;
 const BASE_DIR = __dirname;
 const UPLOAD_DIR = BASE_DIR; 
